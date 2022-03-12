@@ -1,0 +1,48 @@
+h1 {
+  background-color: aqua;
+  color: rgb(145, 26, 26);
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.header {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(145, 26, 26);
+  width: 550px;
+  height: 550px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+.cell {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  /* display: flex; */
+  margin: 30px;
+  scroll-behavior: smooth;
+  box-shadow: 10px 10px 5px rgb(255, 255, 255);
+}
+/* justify-content: space-around;
+  flex-direction: row; */
+
+img {
+  height: 75px;
+  width: 75px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  width: 50px;
+  padding: 15px;
+
+  margin: auto;
+  box-shadow: 1px 2px 5px rgb(128, 0, 0);
+}
